@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/view/main_dashboard.dart';
 
-void main() {
+void main() async {
   runApp(MyApp());
 }
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Meal-Box Ev Yemekleri',
+      title: 'Meal-Box Gurme Lezzetler',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
